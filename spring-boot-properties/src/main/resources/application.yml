@@ -1,0 +1,27 @@
+app:
+  #Simple properties
+  email: contact@chrouki.com
+  appName: demo
+  #List properties
+  contacts:
+    - contact@chrouki.com
+    - admin@chrouki.com
+  #Object properties
+  author:
+    name: chrouki
+    description: Developer
+  #Map Properties
+  site:
+    host: chrouki.com
+    ip: 127.0.0.1
+    port: 8080
+  #Multiple nested object
+  sites:
+    first:
+      host: chrouki.com
+      ip: 127.0.0.1
+      port: 8080
+    second:
+      host: another.chrouki.com
+      ip: 127.0.0.1
+      port: 9090
